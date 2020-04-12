@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/primaryLightColor</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Finder.SmallComponent </item>
+        <item name="textInputStyle">@style/Widget.Finder.TextInputLayoutOutlined</item>
+    </style>
+
+    <style name="ShapeAppearance.Finder.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <style name="Widget.Finder.TextInputLayoutOutlined" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="shapeAppearanceOverlay">
+            @style/ShapeAppearanceOverlay.Finder.MaterialTextInputLayoutOutlined
+        </item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Finder.MaterialTextInputLayoutOutlined" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+</resources>
