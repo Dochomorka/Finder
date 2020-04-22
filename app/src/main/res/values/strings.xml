@@ -3,4 +3,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="message" translatable="true">message</string>
+    <string name="contact" translatable="true">contact</string>
+    <string name="file" translatable="true">file</string>
+
 </resources>
