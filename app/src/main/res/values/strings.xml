@@ -7,4 +7,6 @@
     <string name="contact" translatable="true">contact</string>
     <string name="file" translatable="true">file</string>
 
+
+    <string name="search_text">Search</string>
 </resources>
